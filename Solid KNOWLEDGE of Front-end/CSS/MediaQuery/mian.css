@@ -1,0 +1,23 @@
+body{
+
+    width: 1040px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: whitesmoke;
+    background-image:radial-gradient(black,whitesmoke)
+}
+
+
+
+@media (max-height:500px) and (min-aspect-ratio:1/2) { 
+
+    body{
+        background-color: aliceblue;
+        background-image: url('../ImagesTheme/OIP.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+

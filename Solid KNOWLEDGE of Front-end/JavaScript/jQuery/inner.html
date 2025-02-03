@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        .bgClass{
+            background-color: red;
+        }
+        .modifying{
+            border: 2px solid black;
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+
+<p>Not loaded yet.</p>
+<p>Not loaded yet.</p>
+<p>Not loaded yet.</p>
+<p>Not loaded yet.</p>
+<p>Not loaded yet.</p>
+
+<!-- Hand event listener -->
+
+<h1>Event listener is here!</h1>
+
+
+<!-- Effect for elements through hide and Show -->
+<div>
+<a href="#" id="hide">Hide</a> | <a href="#" id="show">Show</a>
+<h3 id="hideShow" style="display:none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maxime id dolorum nostrum quod cumque, officia molestiae ullam sapiente voluptate quae natus deleniti praesentium odio nam quisquam voluptatibus ratione quaerat?</h3>
+
+<!-- Visible and invisible -->
+<a href="#" id="toggleBtn">Hide</a> 
+<h6 height="200px" id="hideAndShow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, nobis dolore quis provident, aspernatur quasi enim culpa nulla soluta, molestias laboriosam voluptate a explicabo labore vitae in nam dolorem aliquam.</h6>
+</div>
+
+<!-- .toggleClass() -->
+ 
+<a href="#" id="CLAssToggle">Add class</a>
+<h6 id="toggleClass">
+    Add or remove class!
+</h6>
+
+<div>
+    <a href="#" id="fid-in">Fid in</a> | <a href="#" id="Fid-out">Fid out</a>
+    <h3 id="text1" style="text-align:left; display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores at quas tempora iure facilis qui labore est quos, eos corporis ex, velit saepe eius sapiente perferendis aut explicabo pariatur quaerat!
+    Magni beatae suscipit reprehenderit dolore quam accusantium totam molestiae. Mollitia neque at rerum laudantium fugit facilis harum incidunt voluptatibus accusamus iure quaerat veritatis error, impedit, nesciunt dolorum quod eligendi provident?</h3>
+</div>
+
+<!-- .slideUp() -->
+
+<div>
+    <a href="#" id="slideDown">Slide Down</a> | <a href="#" id="slideUp">Slide Up</a> |<a href="#" id="slideToggle">Slide Toggle</a>
+
+    <h6 id="slideText" style="display: none;">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aliquid debitis eaque quidem amet delectus, ipsa dolorem optio quibusdam, repellat iure modi odit vero enim nisi. Doloremque cum dolorem aliquid.
+        Placeat corporis quos quis aut eum modi perferendis consectetur nulla, aliquid maxime illo quae veniam impedit dolor neque ad a ex alias officia molestiae nesciunt eos earum repellendus? Quaerat, nemo?
+    </h6>
+</div>
+
+<!-- .toggle() -->
+
+<div>
+    <button id="toggleBtnOFtoggle">Show</button>
+    <h3 id="toggleTextId" style="display: none;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet exercitationem animi sit, placeat repellendus at, facere ipsa ea repellat, consequatur culpa maxime itaque deleniti veniam a accusamus voluptas beatae. Sit.
+    Ipsam ullam quidem cumque adipisci eligendi beatae, necessitatibus placeat veniam hic, vel praesentium et consequuntur accusamus repellat sint, magni enim alias incidunt? Voluptate error fugit doloremque porro quidem esse totam.
+    </h3>
+</div>
+
+<!--  .animate() -->
+<div>
+    <button id="animating-button">Animating</button>
+    <h3 id="animating-text">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, reiciendis provident nostrum dolore tempora magnam, architecto numquam aliquid sint qui sit hic aut, iste corporis consectetur rem maiores et. Modi!
+    Molestias magni, velit porro ad debitis, corrupti aperiam ipsa accusamus dolorum nam consequatur quisquam quod recusandae. Doloribus voluptatum dolorem eligendi nulla culpa amet nesciunt doloremque quisquam assumenda, totam pariatur iste.
+    Qui quod ex corporis voluptates? Aperiam similique voluptatem qui fuga deleniti nulla distinctio, consequuntur accusamus amet repellat accusantium officiis quis fugit sunt voluptate veniam quod ullam odio omnis incidunt reiciendis!
+    </h3>
+
+</div>
+
+<!-- selectors -->
+
+<div>
+    <h3 class="selectors">Assalomu alaykum</h3>
+    <h3 class="selectors">Hello</h3>
+    <h3 class="selectors">Hi!</h3>
+    <h3 class="selectors">Chao!</h3>
+</div>
+
+<!-- Advanced selectors -->
+
+<div>
+    <div id="container">   
+        <button  id="preApend-bttn" style="width: 200px; height: 100px; font-size: 20px; border-radius: 50px;">Preapend</button>
+       <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quos totam natus necessitatibus dicta officia labore! Distinctio pariatur porro aut dolore cumque cupiditate mollitia explicabo? Perspiciatis architecto beatae deleniti laborum.</h3>
+       <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quos totam natus necessitatibus dicta officia labore! Distinctio pariatur porro aut dolore cumque cupiditate mollitia explicabo? Perspiciatis architecto beatae deleniti laborum.</h3>
+       <h3>Lorem, ipsum dolor mrIbrokhim sit amet consectetur adipisicing elit. Officiis quos totam natus necessitatibus dicta officia labore! Distinctio pariatur porro aut dolore cumque cupiditate mollitia explicabo? Perspiciatis architecto beatae deleniti laborum.</h3>
+       <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quos totam natus necessitatibus dicta officia labore! Distinctio pariatur porro aut dolore cumque cupiditate mollitia explicabo? Perspiciatis architecto beatae deleniti laborum.</h3>
+       <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quos totam natus necessitatibus dicta officia labore! Distinctio pariatur porro aut dolore cumque cupiditate mollitia explicabo? Perspiciatis architecto beatae deleniti laborum.</h3>
+    </div>
+</div>
+
+<!-- .wrap() -->
+
+<div id="containerClassForWrap" > 
+    <p class="elemts-for-wrapper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, nostrum porro. Ipsam ipsum sunt sint dolorem quos enim perspiciatis. Hic illo, eligendi quae ad iure blanditiis nulla quibusdam sint quasi.</p>
+    <p class="elemts-for-wrapper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, nostrum porro. Ipsam ipsum sunt sint dolorem quos enim perspiciatis. Hic illo, eligendi quae ad iure blanditiis nulla quibusdam sint quasi.</p>
+    <p class="elemts-for-wrapper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, nostrum porro. Ipsam ipsum sunt sint dolorem quos enim perspiciatis. Hic illo, eligendi quae ad iure blanditiis nulla quibusdam sint quasi.</p>
+</div>
+
+<!-- empty()  -->
+<div>
+    <p id="clearContent">Hello bro</p>
+</div>
+
+<!-- replaceWith() -->
+
+<div class="containerReplacementText">
+    <button id="replaceButton">Replace</button> 
+    <h3>This text will replace ...</h3>
+</div>
+
+<!-- .replaceAll() -->
+<button id="replaceAllBtn">ReplaceAll</button>
+<div id="container-of-replaceAll">
+  
+    <h2  class="replaceAlll">H1</h2>
+    <h2  class="replaceAlll">H2</h2>
+    <h2  class="replaceAlll">H3</h2>
+</div>
+
+
+<!-- addClass() -->
+
+<div id="addClassContainer">
+    <button>AddClass</button>
+    <button>Remove class</button>
+    <button>Toggle class</button>
+    <p class="modifying">Hello MrIbrokhim!</p>
+</div>
+<script src="./main.js"></script>
+ 
+</body>
+</html>

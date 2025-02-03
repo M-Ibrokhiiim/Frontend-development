@@ -1,0 +1,11 @@
+table,th,td,tr{
+    color: rgb(93, 103, 103);
+    border: 1px solid;
+    padding: 0.5rem;
+    border-collapse:collapse;
+    
+}
+img{
+    height: 700px;
+}
+

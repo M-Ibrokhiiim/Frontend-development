@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+button:active :is(body){
+    background-color: red;
+    color: white;
+}
+
+
+/* :is */
+
+/*  
+.className/TagName :is(elementName1,elementName2,elementName3/ClassName1,ClassName2,ClassName3 which are inside of that  PARENT className or TagName){
+
+          Styles for our elements!!!
+
+}
+ */
+
+
+section :is(h1,h2,h3,h4){
+
+    color: blue;
+    font-size: 20px;
+}
+
+
+h1:is(:hover,:active){
+    color: antiquewhite;
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* :where */
+
+
+:where(h1,h3){
+    background-color: brown;
+    font-family: fantasy;
+     
+    
+       
+  
+ 
+
+} 
+
+nav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+
+img {
+    display: block;
+    
+    opacity: 0.5;
+     
+}
+
+img:target {
+    border: 2px solid black;
+    opacity: 10;
+  }
+
+

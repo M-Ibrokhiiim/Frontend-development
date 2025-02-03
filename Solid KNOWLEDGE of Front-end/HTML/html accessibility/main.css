@@ -1,0 +1,39 @@
+.click{
+    width: 340px;
+    height:80px;
+    background-color: red;
+    font-size: 42px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    margin:120px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top:20px;
+}
+.click:active{
+    
+    background-color: blue;
+    transition: background-color 12.5s;
+    transform: scale(0.915);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0.8;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #e1f715;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #0e0e0e;
+    color:white;
+}

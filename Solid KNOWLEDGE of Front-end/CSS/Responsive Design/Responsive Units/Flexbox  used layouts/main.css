@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center ;
+
+    row-gap: 12px;
+    
+}
+
+.article1{
+    width: 100%;
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    justify-content: space-evenly;
+   
+    
+}
+
+.article2{
+    width: 100%;
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    justify-content: space-around;
+}
+.artic2-p:first-child{
+      width: 100vw;
+      height: 20vh;
+     
+    
+}
+
+.artic2-p:last-child{
+    width: 20vw;
+    height:auto;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+p{
+    width:25vw;
+    border: 1vw double red; 
+    padding: 12px;
+    margin-left: 2px;
+    font-size: 3vw;
+    text-align: justify;
+}
+
+h1{
+    width: 90vw;
+    height: 30vh;
+    background-image: url('/Final Project/navigations/contect/cnd2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ /* Media Query */
+
+  
+
+ @media (max-width:376px){
+    .article1:first-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        margin: 0 auto;
+     }
+
+     .article1-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        
+     }
+     
+
+     article{
+        width: 100%;
+     }
+
+     body{
+        width: 60vw;
+     }
+ }

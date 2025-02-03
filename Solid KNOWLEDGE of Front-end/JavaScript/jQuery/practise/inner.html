@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery practise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .classForMethod{
+             width:200px;
+              height: 200px;
+               background-color: aqua; 
+                text-align: center;
+                 margin: auto;
+        }
+    </style>
+</head>
+<body style="margin: auto; text-align: center;">
+     <div style="text-align: left; margin: auto;  margin-left:400px ;">
+        <p><strong>Methods of jQuery:</strong>
+         
+            
+        </p>
+    
+     </div>
+    <hr>
+    
+    <div>
+        .append()
+        <p id="append">Hello append</p>
+        <hr>
+        .preapend()
+        <p id="preapend">Hello preappend!</p>
+        <hr>
+        .html()
+        <p id="html"></p>
+        <hr>
+        .css()
+        <p id="css">CSS method</p>
+        <hr>
+        .on()
+        <br>
+        <button id="eventListener">Event listener</button>
+        <p class="eventListener"></p>
+        <hr>
+        .show()  ; .hide()  ; .toggle()  
+        <br>
+        <br>
+        <button id="show" style="display: inline-block; margin-left: 20px;">Show</button>
+        <button id="hide" style="display: inline-block; margin-left: 20px;">Hide</button>
+        <button id="toggle" style="display: inline-block; margin-left: 20px;">Toggle(Show)</button>
+         
+        <p class="text" style=" display: none; text-align: left; width: 300px; height: 400px; margin: auto; text-align: center; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolores. Ducimus officiis, assumenda sunt dolores officia molestiae ipsa odio accusantium quisquam? Doloribus, quisquam! Non repudiandae optio ratione obcaecati maiores veritatis.</p>
+
+        <br>
+        <hr>
+        .fadeIn() ; .fadeOut() ; .toggleFade()
+         <br>
+         <br>
+         <button id="fadeIn" style="display: inline-block; margin-left: 20px;">FadeIn</button>
+         <button id="fadeOut" style="display: inline-block; margin-left: 20px;">FadeOut</button>
+         <button id="toggleFade" style="display: inline-block; margin-left: 20px;">ToggleFade(Show)</button>
+         <p id="fadeTEXT" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eligendi fuga dolore voluptates maxime ipsum iste veniam tempore nobis debitis? Accusantium ut fugiat at, dicta expedita suscipit a qui quisquam?</p>
+
+
+         <br>
+         <hr>
+         .slideDown() ; .slideUp() ; .toggleSlide()
+         <br>
+         <br>
+         <button id="slideDown" style="display: inline-block; margin-left: 20px;">SlideDown</button>
+         <button id="slideUp" style="display: inline-block; margin-left: 20px;">SlideUp</button>
+         <button id="toggleSlide" style="display: inline-block; margin-left: 20px;">ToggleSlide(Down)</button>
+
+         <p id="slideTEXT" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum facere adipisci enim mollitia ex, facilis quos laboriosam! Fugiat atque aperiam repellendus porro qui reiciendis voluptate, unde magni architecto esse.</p>
+
+         <hr>
+
+         .animate()
+          <br>
+         <button id="leftAnimate" style="display: inline-block; margin-left: 20px;">Left</button>
+         <button id="rightAnimate" style="display: inline-block; margin-left: 20px;">Right</button>
+         <button id="bottomAnimate" style="display: inline-block; margin-left: 20px;">Bottom</button>
+         
+         <br>
+         <br>
+       <p id="animateTEXT" style="width:200px; height: 200px; background-color: aqua; text-align: center; margin: auto;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil debitis accusamus ex explicabo ipsam inventore atque non, officiis voluptate iste numquam, nemo dolorum dignissimos. Dignissimos maxime voluptates odio non?</p>
+
+        <br>
+        <hr>
+
+        .addClass() ; .removeClass() ; .toggleClass()
+         <br>
+        <button id="addClass" style="display: inline-block; margin-left: 20px;">AddClass</button>
+        <button id="removeClass" style="display: inline-block; margin-left: 20px;">RemoveClass</button>
+        <button id="toggleClass" style="display: inline-block; margin-left: 20px;">ToggleClass</button>
+           
+        <p id="classTEXT">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nihil debitis accusamus ex explicabo ipsam inventore atque non, officiis voluptate iste numquam, nemo dolorum dignissimos. Dignissimos maxime voluptates odio non?</p>
+        
+        <hr>
+        .wrap()
+        <br>
+        <button  id="WERAP">Wrap-With-H3</button>
+        <p id="wrap">
+            Here is wrap methods using by wrapping h3 tag
+        </p>
+
+        <hr>
+        .empty()
+
+        <button class="deleteBtn">Delete below content</button>
+        <p id="emptyText">Here is empty method using for delete that content</p>
+   
+        <hr>
+
+        .replaceAll() <br>
+        <button id="replaceAll-btn">Replace All</button>
+        <section>
+             <p class="p">Here 1</p>
+             <p class="p">Here 2</p>
+             <p class="p">Here 3</p>
+             <p class="p">Here 4</p>
+        </section>
+
+      <hr>
+        .replaceWith()
+         <br>
+        <button id="replaceWithBtn">Replace with</button>
+        <p id="replaceWithText">Replace with other tags from that place through using replaceWith method</p>
+    </div>
+    
+    <script src="./main-practise.js"></script>
+</body>
+</html>

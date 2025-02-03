@@ -1,0 +1,165 @@
+
+ 
+@media (min-width:901px){
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    header{
+        width: 100%;
+        height: 70%;
+        margin: 0 auto;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        top: -52px;
+    
+    }
+    
+    figure{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    img{
+        width: 30%;
+        height:30%;
+        margin: 0 auto;
+    }
+    
+    nav{
+         width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    /* Clear 100% */
+    
+     ul{
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    
+         
+         
+    }
+    
+    li{
+        margin-left: -40px;
+        text-align: center; 
+        width:auto;
+        align-items: center;
+        align-content: center;
+         
+        list-style: none;
+        font-size: 3vw;
+    }
+      
+     
+
+    main{
+        padding: 50px;
+        margin-top: 110px;
+
+    }
+
+    
+    p{
+        margin-top: 10px;
+    }
+    
+    
+
+}
+
+  
+  /* For Phones*/
+
+ @media (max-width:900px){
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    header{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        position: fixed;
+        background-color: white;
+        top: 0;
+    }
+    
+    figure{
+        width: 80%;
+        height:auto;
+        text-align: left;
+        margin-left: 12px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+
+    
+    
+     nav{
+        width: 100%;
+         margin: 0 auto;
+        text-align: center;
+        align-content: center;
+        height: auto;
+    
+     }
+     ul{
+        width: auto;
+        height: 20%;
+        padding: 0;
+        list-style: none;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    
+    
+     }
+    
+     a{
+        font-size: 2vw;
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+     }
+     a:hover{
+        font-style: italic;
+     }
+    
+    
+    
+     main{
+        padding: 50px;
+        margin-top: 100px;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+     
+
+} 
+
+

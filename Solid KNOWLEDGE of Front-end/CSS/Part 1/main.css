@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1{
+color: rgb(105, 105, 120);
+size: 12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 100%;
+width: auto;
+height: 100%;
+border: 6px solid black;
+text-align: center;
+text-decoration: rgb(138, 184, 184);
+text-decoration: dotted;
+margin: 0 AUTO;
+}
+body{
+    background: papayawhip;
+}
+h1{
+    background-color:        #0a0a79e9;
+
+    font-size:2em;
+}
+h2{
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    width: 1/2;
+    display: inline-block;
+}
+header{
+width: 50%;
+border: 1px solid black;
+
+}
+h3{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 2/2;
+    border: 1px solid black;
+}
+
+.container{
+   border: 12px double red;
+   outline: 6px  double black;
+ }
+p{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 3rem auto;
+    border: 2px solid black;
+    outline: 2px solid red;
+    border-radius: 50%;
+}
+
+body{
+    padding:25%
+}
+/* header{
+    padding:25%
+} */
+ .totally{
+   border: 2px double black;
+   margin-top: 4rem;
+    width: auto;
+ }
+ .Lorem{
+    width:300px;
+    height:auto;
+    text-align: center;
+    text-align: justify;
+    margin: 35%;
+    margin-top: 10%;
+    text-indent: 2em;
+    line-height: 4 ;
+    letter-spacing:1rem;
+    word-spacing: 1rem;
+    font-style:unset;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .links{
+    text-decoration: none;
+    cursor: no-drop;
+  }
+
+
+  /* List Styles */
+  ol{
+    list-style-type:  decimal-leading-zero; 
+  }
+  un li:nth-child(even){
+    color: blue;
+  }
+ ul::marker{
+    width: 2px;
+    height: 3px;
+    content:"Only 5$";
+    }
+
+.displayDiv{
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  text-align: center;
+  word-spacing: 20px;
+
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline;
+  margin: 0 0 0 1;
+}
+.floatBox{
+  width: 100px;
+  height:100px;
+  float: left;
+  background-color: black;
+  margin-right: 12px;
+  margin-top: -12px;
+}
+h6{
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  text-align: justify;
+  display: inline;
+}
+.clear{
+  clear: both;
+}
+.floatDivContainer{
+  border: 6px solid black;
+  padding: 10px;
+  display: flow-root;
+}
+.Columns{
+   columns:3 240px;
+   column-rule:2px solid black;
+   column-gap: 110px;
+
+}
+ 

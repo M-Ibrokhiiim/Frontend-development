@@ -1,0 +1,36 @@
+ body{
+    margin: 0 auto;
+    width: 1040px;
+    text-align: center;
+    background-color: var(--BACKGROUND-COLOR1);
+    color: var(--TEXT-COLOR);
+ }
+
+  
+:root{
+     /* Background-color */
+     --BACKGROUND-COLOR1:black;
+
+     /* Text-color */
+     --TEXT-COLOR: white;
+ 
+} 
+ 
+@media (prefers-color-scheme: light){
+    :root{
+        --BACKGROUND-COLOR1: rgb(188, 56, 56);
+        --TEXT-COLOR: rgb(22, 20, 20);
+    }
+}
+ 
+:root.dark-mode{
+    --BACKGROUND-COLOR: rgb(22, 20, 20);
+    --TEXT-COLOR: rgb(188, 56, 56);
+}
+
+
+h1{
+    font-size: 1rem;
+}
+
+

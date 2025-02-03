@@ -1,0 +1,42 @@
+ 
+  
+div{
+    width: 100%;
+    height: auto;
+  text-align: center;
+    margin: 0 auto;
+
+ }
+
+ main{
+    min-width: 200px;
+    max-width: 1000px;
+    height: auto; 
+    background-color: lightgray;
+     
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+
+ }
+
+ p{
+     
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    
+    flex-grow: 1;
+    flex-basis: 200px;
+
+ }
+
+ p:nth-child(2){
+    flex-shrink: 3;
+    flex-grow: 22;
+ }
