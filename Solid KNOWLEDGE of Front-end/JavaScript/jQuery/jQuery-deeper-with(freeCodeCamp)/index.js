@@ -39,4 +39,32 @@ $("#add-btn").click(function(){
 // Here are I used comment
 $("#h1Text").before("<h2>Above</h2>")
 $("#h1Text").after("<h2>Bottom</h2>")
+
+
+
+// 
+$("#css").click(function(){
+    $("#textTxt").css({
+        border:"2px solid black" ,
+        marginLeft:"+=200px"
+    })
+})
+
+$('#responSe').click(function(){
+
+    let responses=
+    $.get('https://jsonplaceholder.typicode.com/posts', function(response) {
+        let resPoNs=response
+        responses=resPoNs
+      }).fail(function(xhr, status, error) {
+        console.error('Error:', error);
+      });
+
+    console.log(responses.responseJSON);
+    
+      
+      
+})
+
+
 })
